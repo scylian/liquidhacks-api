@@ -15,7 +15,7 @@ app.get('/', async (req, res) => {
     bearer_token: response.access_token
   });
   const results = await client.get('search/tweets', {
-    q: "#teamliquid #teamgold"
+    q: "(@TeamLiquid) #ClashRoyale"
   });
 
   res.json(results);
