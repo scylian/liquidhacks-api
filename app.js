@@ -4,8 +4,8 @@ const app = express();
 const Twitter = require('twitter-lite');
 
 const user = new Twitter({
-  consumer_key: "k0tRyQ4QRS1k3pU4Y9SO6EDY4",
-  consumer_secret: "FSyq8bHtEAOMPMRx0BNr9FZk7KQGW9Gu1VvFMULRqqIthjZyOI"
+  consumer_key: CONSUMER_KEY,
+  consumer_secret: CONSUMER_SECRET
 });
 
 
